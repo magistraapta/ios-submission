@@ -11,6 +11,17 @@
 		FE48C16B2B60E0CD005462AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE48C16A2B60E0CD005462AE /* ContentView.swift */; };
 		FE48C16D2B60E0CE005462AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE48C16C2B60E0CE005462AE /* Assets.xcassets */; };
 		FE48C1702B60E0CE005462AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE48C16F2B60E0CE005462AE /* Preview Assets.xcassets */; };
+		FE48C17D2B60E1BA005462AE /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = FE48C17C2B60E1BA005462AE /* Game */; };
+		FE48C17F2B60E1E8005462AE /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE48C17E2B60E1E8005462AE /* HomePresenter.swift */; };
+		FE48C1812B60E1FF005462AE /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE48C1802B60E1FF005462AE /* HomeRouter.swift */; };
+		FE48C1832B60E215005462AE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE48C1822B60E215005462AE /* HomeView.swift */; };
+		FE48C1852B60E22F005462AE /* GameRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE48C1842B60E22F005462AE /* GameRow.swift */; };
+		FE48C18A2B60E261005462AE /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE48C1892B60E261005462AE /* DetailPresenter.swift */; };
+		FE48C18C2B60E271005462AE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE48C18B2B60E271005462AE /* DetailView.swift */; };
+		FE48C18F2B60E29C005462AE /* FavoritePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE48C18E2B60E29C005462AE /* FavoritePresenter.swift */; };
+		FE48C1932B60E2CC005462AE /* FavoriteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE48C1922B60E2CC005462AE /* FavoriteRouter.swift */; };
+		FE48C1962B60E2EB005462AE /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE48C1952B60E2EB005462AE /* FavoriteView.swift */; };
+		FE48C1992B60E392005462AE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE48C1982B60E392005462AE /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,16 @@
 		FE48C16A2B60E0CD005462AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FE48C16C2B60E0CE005462AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE48C16F2B60E0CE005462AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE48C17E2B60E1E8005462AE /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		FE48C1802B60E1FF005462AE /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		FE48C1822B60E215005462AE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FE48C1842B60E22F005462AE /* GameRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRow.swift; sourceTree = "<group>"; };
+		FE48C1892B60E261005462AE /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		FE48C18B2B60E271005462AE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FE48C18E2B60E29C005462AE /* FavoritePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePresenter.swift; sourceTree = "<group>"; };
+		FE48C1922B60E2CC005462AE /* FavoriteRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRouter.swift; sourceTree = "<group>"; };
+		FE48C1952B60E2EB005462AE /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		FE48C1982B60E392005462AE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE48C17D2B60E1BA005462AE /* Game in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +73,7 @@
 		FE48C1672B60E0CD005462AE /* ios-submission */ = {
 			isa = PBXGroup;
 			children = (
+				FE48C1762B60E162005462AE /* UI */,
 				FE48C1682B60E0CD005462AE /* ios_submissionApp.swift */,
 				FE48C16A2B60E0CD005462AE /* ContentView.swift */,
 				FE48C16C2B60E0CE005462AE /* Assets.xcassets */,
@@ -65,6 +88,119 @@
 				FE48C16F2B60E0CE005462AE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE48C1762B60E162005462AE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FE48C1972B60E386005462AE /* Profile */,
+				FE48C18D2B60E28F005462AE /* Favorite */,
+				FE48C1862B60E242005462AE /* Detail */,
+				FE48C1772B60E16A005462AE /* Home */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FE48C1772B60E16A005462AE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FE48C17A2B60E177005462AE /* Views */,
+				FE48C1792B60E173005462AE /* Router */,
+				FE48C1782B60E16E005462AE /* Presenter */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FE48C1782B60E16E005462AE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FE48C17E2B60E1E8005462AE /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FE48C1792B60E173005462AE /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				FE48C1802B60E1FF005462AE /* HomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		FE48C17A2B60E177005462AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE48C1822B60E215005462AE /* HomeView.swift */,
+				FE48C1842B60E22F005462AE /* GameRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE48C1862B60E242005462AE /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				FE48C1882B60E24E005462AE /* Views */,
+				FE48C1872B60E248005462AE /* Presenter */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		FE48C1872B60E248005462AE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FE48C1892B60E261005462AE /* DetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FE48C1882B60E24E005462AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE48C18B2B60E271005462AE /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE48C18D2B60E28F005462AE /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				FE48C1942B60E2DA005462AE /* Views */,
+				FE48C1912B60E2BB005462AE /* Router */,
+				FE48C1902B60E2B1005462AE /* Presenter */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		FE48C1902B60E2B1005462AE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FE48C18E2B60E29C005462AE /* FavoritePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FE48C1912B60E2BB005462AE /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				FE48C1922B60E2CC005462AE /* FavoriteRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		FE48C1942B60E2DA005462AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE48C1952B60E2EB005462AE /* FavoriteView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE48C1972B60E386005462AE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FE48C1982B60E392005462AE /* ProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +219,9 @@
 			dependencies = (
 			);
 			name = "ios-submission";
+			packageProductDependencies = (
+				FE48C17C2B60E1BA005462AE /* Game */,
+			);
 			productName = "ios-submission";
 			productReference = FE48C1652B60E0CD005462AE /* ios-submission.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +250,9 @@
 				Base,
 			);
 			mainGroup = FE48C15C2B60E0CD005462AE;
+			packageReferences = (
+				FE48C17B2B60E1BA005462AE /* XCRemoteSwiftPackageReference "ios-game-package" */,
+			);
 			productRefGroup = FE48C1662B60E0CD005462AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +279,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE48C1932B60E2CC005462AE /* FavoriteRouter.swift in Sources */,
+				FE48C17F2B60E1E8005462AE /* HomePresenter.swift in Sources */,
+				FE48C18C2B60E271005462AE /* DetailView.swift in Sources */,
+				FE48C1812B60E1FF005462AE /* HomeRouter.swift in Sources */,
+				FE48C1992B60E392005462AE /* ProfileView.swift in Sources */,
+				FE48C1852B60E22F005462AE /* GameRow.swift in Sources */,
+				FE48C1962B60E2EB005462AE /* FavoriteView.swift in Sources */,
 				FE48C16B2B60E0CD005462AE /* ContentView.swift in Sources */,
+				FE48C1832B60E215005462AE /* HomeView.swift in Sources */,
+				FE48C18F2B60E29C005462AE /* FavoritePresenter.swift in Sources */,
+				FE48C18A2B60E261005462AE /* DetailPresenter.swift in Sources */,
 				FE48C1692B60E0CD005462AE /* ios_submissionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +489,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FE48C17B2B60E1BA005462AE /* XCRemoteSwiftPackageReference "ios-game-package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/magistraapta/ios-game-package";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE48C17C2B60E1BA005462AE /* Game */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE48C17B2B60E1BA005462AE /* XCRemoteSwiftPackageReference "ios-game-package" */;
+			productName = Game;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FE48C15D2B60E0CD005462AE /* Project object */;
 }
